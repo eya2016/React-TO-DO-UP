@@ -1,7 +1,6 @@
 import React from "react";
 
 class Header extends React.Component {
-  
   constructor(props) {
     super(props);
     this.state = { value: "", todoList:[] };
@@ -34,6 +33,9 @@ class Header extends React.Component {
 
   }
 
+  handleAffichToggleItem = (e,index) =>{
+    if(this.state.todoList[index].isToggleOn)  return 'Complete'; else return 'Undo';
+  }
  
   render() {
     return (
