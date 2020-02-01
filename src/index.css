@@ -1,0 +1,71 @@
+body{
+  background-color: #f9f8fb;
+  }
+  .container {    
+  background-color: #4696e5;
+  color: white;
+  height:450px;
+  min-width:100%;
+}
+  header, .jumbotron{ 
+  background-color: #4696e5;
+  color:white;
+  }
+  .display-4 {
+  position: absolute;
+  top: 55px;
+  right: 85px;
+  font-weight:400;
+  }
+  .lead{
+  position: absolute;
+  /* margin-top:55px; */
+  top: 124px;
+  right: 90px;    
+  }
+  ::placeholder {
+  color: #4696e5;
+  opacity: 1; /* Firefox */    
+  }
+  #myForm {margin-bottom:50px;}
+  .form-control{
+  margin-top:55px;    
+  }
+  .btn-primary{
+  position: absolute;
+  margin-top: 25px;
+  right: 85px;
+  border:solid 2px #74b0ec;
+  }
+  main{
+  text-align:left;
+  margin: 55px auto;
+  color: #919191;
+  min-height:300px;
+  }
+  main .title{
+  margin:35px auto;
+  font-weight:400;
+  font-size:36px;
+  text-align:center;
+  }
+  #row-task{
+  margin: 2% 5%;
+  }
+  .liste-task, #row-task{
+  display:flex;
+  flex-direction:column;
+  }
+  .completed {
+      text-decoration: line-through
+  }
+  .item{ margin:10px;}
+  footer{ 
+  background-color: #fafafa;
+  color: grey;
+  }
+  footer .copyright{
+  padding-top: 40px !important;
+  }
+  .copyright p {text-align:center !important;}
+  .text-bare {text-decoration: line-through;}
